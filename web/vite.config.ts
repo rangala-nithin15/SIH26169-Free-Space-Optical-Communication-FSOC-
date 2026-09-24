@@ -6,6 +6,7 @@ import react from '@vitejs/plugin-react';
 // so no backend is required for the demo. The optional FastAPI engine is reached via
 // VITE_ASTRAQ_SERVER (default http://localhost:8000).
 export default defineConfig({
+  base: '/SIH26169-Free-Space-Optical-Communication-FSOC-/',
   plugins: [react()],
   server: { port: 5173, host: true },
   preview: { port: 4173, host: true },
